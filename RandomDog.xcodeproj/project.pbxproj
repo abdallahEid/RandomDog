@@ -14,6 +14,7 @@
 		BBA2135C22B91C80001119E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA2135A22B91C80001119E4 /* LaunchScreen.storyboard */; };
 		BBA2136822B92B52001119E4 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2136722B92B52001119E4 /* DogAPI.swift */; };
 		BBA2136A22B93B80001119E4 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2136922B93B80001119E4 /* DogImage.swift */; };
+		BBA6928622B9DD0700AF1C42 /* BreedsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6928522B9DD0700AF1C42 /* BreedsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BBA2135D22B91C80001119E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA2136722B92B52001119E4 /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 		BBA2136922B93B80001119E4 /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		BBA6928522B9DD0700AF1C42 /* BreedsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				BBA2136622B92B31001119E4 /* Model */,
+				BBA6928722B9DD4100AF1C42 /* Services */,
 				BBA2136422B9295B001119E4 /* Controller */,
 				BBA2136322B92948001119E4 /* View */,
 				BBA2136522B92971001119E4 /* Supporting Files */,
@@ -96,10 +99,18 @@
 		BBA2136622B92B31001119E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BBA2136722B92B52001119E4 /* DogAPI.swift */,
 				BBA2136922B93B80001119E4 /* DogImage.swift */,
+				BBA6928522B9DD0700AF1C42 /* BreedsList.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BBA6928722B9DD4100AF1C42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2136722B92B52001119E4 /* DogAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA6928622B9DD0700AF1C42 /* BreedsList.swift in Sources */,
 				BBA2135422B91C7E001119E4 /* ViewController.swift in Sources */,
 				BBA2135222B91C7E001119E4 /* AppDelegate.swift in Sources */,
 				BBA2136A22B93B80001119E4 /* DogImage.swift in Sources */,
